@@ -1,0 +1,39 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "alfred",
+  "description": "Private Claude Code plugin marketplace for the alfred-intelligence organization.",
+  "owner": {
+    "name": "Mr.RedHat",
+    "email": "mrredhat317@gmail.com",
+    "url": "https://github.com/mr-redhat-fb"
+  },
+  "plugins": [
+    {
+      "name": "kostnadsrakning",
+      "description": "Genererar svenska rättegångskostnadsräkningar som PDF med periodvis uppdelning, måldelskategorisering och sex analytiska perspektiv.",
+      "category": "legal",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/kostnadsrakning-skill"
+      }
+    },
+    {
+      "name": "kebab-it",
+      "description": "Authors and tests infrastructure change-tasks; kebab-it-agent executes via GitOps.",
+      "category": "infrastructure",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/kebab-it"
+      }
+    },
+    {
+      "name": "project-design",
+      "description": "Assembles complete planning packages for software projects: product design in Phase A, engineering handbook and CI/CD plan in Phase B, adaptive revisions in Phase C.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "alfred-intelligence/project-design-skill"
+      }
+    }
+  ]
+}
